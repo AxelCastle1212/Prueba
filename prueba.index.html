@@ -1,90 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi Página en GitHub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #f0f0f0;
             margin: 0;
-            background-color: #f8f9fa;
-            color: #333;
+            padding: 20px;
+            text-align: center;
         }
         header {
-            background-color: #0077b6;
+            background: #0366d6;
             color: white;
-            padding: 1rem;
-            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 40px;
         }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
+        h1 {
+            margin: 0;
         }
         main {
-            padding: 2rem;
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
-        .boton {
-            display: inline-block;
-            background-color: #0096c7;
-            color: white;
-            padding: 10px 20px;
-            margin-top: 1rem;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .boton:hover {
-            background-color: #023e8a;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
-            background-color: #03045e;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
+            margin-top: 40px;
+            color: #555;
+            font-size: 14px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Bienvenido a Mi Página</h1>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre">Sobre mí</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+        <h1>¡Bienvenido a mi página GitHub!</h1>
     </header>
-
     <main>
-        <section id="inicio">
-            <h2>Hola 👋</h2>
-            <p>Esta es una página web de ejemplo creada con HTML y CSS, lista para que la personalices con tu información.</p>
-            <a href="#contacto" class="boton">Contáctame</a>
-        </section>
-
-        <section id="sobre">
-            <h2>Sobre mí</h2>
-            <p>Aquí puedes escribir una breve descripción sobre ti, tu negocio o tu proyecto.</p>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Email: ejemplo@correo.com</p>
-        </section>
+        <p>Esta es una página simple creada para GitHub Pages.</p>
+        <p>Visita mi <a href="https://github.com/tu_usuario" target="_blank" rel="noopener noreferrer">perfil de GitHub</a>.</p>
     </main>
-
     <footer>
-        <p>© 2025 Mi Página Web - Todos los derechos reservados</p>
+        &copy; 2025 Tu Nombre
     </footer>
-
 </body>
 </html>
